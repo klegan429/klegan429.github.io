@@ -1,0 +1,335 @@
+/* home page stuff */
+div.travelSection {
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+    color: #5B507A;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.travelHeading {
+    padding: 20px;
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.myName {
+    text-align: center;
+    font-size: 60px;
+    color: #464655;
+    margin-bottom: 35px;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+img.mePic {
+    padding-top: 50px;
+    margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 70%;
+    border-radius: 10px;
+}
+
+.grid-container1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 50px;
+    background-color: #E7EFC5;
+}
+
+.grid-item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+img.mePic2 {
+    margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 90%;
+    border-radius: 5px;
+}
+
+.aboutMeHeading {
+    font-size: 40px;
+    color: #5B507A;
+    text-align: center;
+    padding-top: 100px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p.aboutMeP {
+    text-align: center;
+    margin: 20px;
+    padding-top: 50px;
+    color: #5B507A;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.slideAnimation {
+    position: relative;
+    margin-bottom: 150px;
+}
+
+.slide-image {
+    position: absolute;
+    width: 100px; 
+    height: 100px;
+    left: 0;
+    transition: left 2s ease;
+    cursor: pointer;
+}
+
+
+
+/* hobby page stuff */
+/* music section */
+.musicTitle {
+    font-size: 40px;
+    margin-top: 50px;
+    color: #5B507A;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card {
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 40px;
+    text-align: center;
+    background-color: #5B507A;
+    color: #E7EFC5;
+    padding-top: 30px;
+}
+
+.column {
+    width: 33.33%;
+}
+
+/* food section */
+.grid-container4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    justify-items: center; 
+    align-items: center; 
+    padding: 20px;
+    background-color: #464655;
+}
+
+.foodTitle {
+    grid-column: span 2; 
+    text-align: center;
+    color: #ADA7C9;
+    font-size: 50px;
+    margin-bottom: 20px; 
+}
+
+.foodItem {
+    width: 100%; 
+    max-width: 400px;
+    height: 300px; 
+    border-radius: 10px;
+}
+
+
+/* sorority section */
+.gammaPhiLink {
+    text-decoration: none;
+    color: #5B507A;
+}
+
+.sororityTitle {
+    font-size: 40px;
+    color: #5B507A;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sororityP {
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    color: #5B507A;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.grid-container3 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.momPic {
+    grid-column: 1;
+    grid-row: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.lettersPic {
+    grid-column: 2;
+    grid-row: span 2;
+    width: 100%;
+    height: 100%;
+}
+
+.hollyPic {
+    grid-column: 3;
+    grid-row: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.meMoon {
+    grid-column: 1;
+    grid-row: 2;
+    width: 100%;
+    height: 100%;
+}
+
+.purpleMe {
+    grid-column: 3;
+    grid-row: 2;width: 100%;
+    height: 100%;
+
+}
+
+
+
+
+
+
+/* fun facts page stuff */
+.petTitle {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 80px;
+    color: #464655;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+    padding-top: 30px;
+}
+
+.wafflesSection {
+    grid-column-start: 1;
+}
+
+.wafflesPic {
+    margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 90%;
+    border-radius: 5px;
+}
+
+.bigCatSection {
+    grid-column-start: 2;
+}
+
+.bigCatPic {
+    margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 90%;
+    border-radius: 5px;
+}
+
+.kodaSection {
+    grid-column-start: 3;
+}
+
+.kodaPic {
+    margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 90%;
+    border-radius: 5px;
+}
+
+.petName {
+    color: #464655;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#factPlace { 
+    font-size: 40px;
+    color: #5B507A;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.factGenerator {
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    height: 100px; 
+    margin: 100px;
+}
+
+#funFactButton {
+    color: #5B507A;
+    background-color: #ADA7C9;
+    border: #5B507A solid 2px;
+    border-radius: 15px;
+    width: 300px;
+    margin-bottom: 70px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+}
+
+.grid-container5 {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 50px;
+    background-color: #E7EFC5;
+    margin-bottom: 40px;
+}
+
+.grid-item1 {
+    grid-column: 1;
+}
+
+img.kittenBlanket {
+    margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 90%;
+    border-radius: 5px;
+}
